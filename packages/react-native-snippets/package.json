@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball",
+  "_id": "react-native-snippets@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-H3rPVlBmNyc8bTIGx9ZHyxutiBRi9/YTjdrNh0ntkkpk7SwADzx3dDw5udr2NDdrmiDiv0NK3IwdWcTVINwptA==",
+  "_location": "/react-native-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball",
+  "_shasum": "22acfa3635cf7def5b9d0149bad65a60e08d9a9f",
+  "_spec": "https://www.atom.io/api/packages/react-native-snippets/versions/0.3.0/tarball",
+  "_where": "/private/var/folders/xj/2rm2m18s4vsf122prck9bml00000gn/T/apm-install-dir-120325-49992-1pj54pa.1m7r",
+  "bugs": {
+    "url": "https://github.com/aakashns/atom-react-native-snippets/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "React Native Snippets for Atom and Nuclide",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aakashns/atom-react-native-snippets#readme",
+  "keywords": [
+    "react-native",
+    "nuclide",
+    "snippets"
+  ],
+  "license": "MIT",
+  "name": "react-native-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakashns/atom-react-native-snippets.git"
+  },
+  "version": "0.3.0"
+}

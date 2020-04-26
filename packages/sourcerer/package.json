@@ -1,0 +1,55 @@
+{
+  "_from": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball",
+  "_id": "sourcerer@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-oCfobvTEnOxUIZ44qjJGL7C5cEQH2jmZst5PnqNrlAlqWEmkY5hNqMHLEx+sStQ4Pzciet7hXT6JxUSgQo0F4g==",
+  "_location": "/sourcerer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball",
+  "_shasum": "2648c8ff77602ac994f922e402fec0e4ee7d56e1",
+  "_spec": "https://www.atom.io/api/packages/sourcerer/versions/2.0.0/tarball",
+  "_where": "/private/var/folders/xj/2rm2m18s4vsf122prck9bml00000gn/T/apm-install-dir-120325-49608-13um4fp.9toi",
+  "activationCommands": {
+    "atom-workspace": "sourcerer:fetch"
+  },
+  "bugs": {
+    "url": "https://github.com/nicktikhonov/sourcerer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "cheerio": "^0.20.0",
+    "google": ">=2.0.0",
+    "request": "^2.72.0"
+  },
+  "deprecated": false,
+  "description": "Find StackOverflow code snippets relevant to your problem with alt-s.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nicktikhonov/sourcerer#readme",
+  "keywords": [
+    "StackOverflow",
+    "code",
+    "snippets"
+  ],
+  "license": "MIT",
+  "main": "./lib/sourcerer",
+  "name": "sourcerer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicktikhonov/sourcerer.git"
+  },
+  "version": "2.0.0"
+}

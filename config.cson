@@ -1,0 +1,20 @@
+"*":
+  core:
+    destroyEmptyPanes: false
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code "
+    fontSize: 22
+  "exception-reporting":
+    userId: "c6abc52a-1a90-4041-891d-3724d28c074f"
+  sourcerer:
+    insertDescription: false
+    luckyMode: true
+  "tool-bar":
+    position: "Bottom"
+  "tree-view":
+    hideVcsIgnoredFiles: true

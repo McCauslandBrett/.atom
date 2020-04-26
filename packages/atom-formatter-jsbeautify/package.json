@@ -1,0 +1,77 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball",
+  "_id": "atom-formatter-jsbeautify@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-jFGL8o16bhcnC2ZsVRo8bwC3EMUD/GhjyS5rvDoCRoLCbck32CTGQ6Ax3NBFc2BXe8SR6jDJmr8WBjSUN/wZCg==",
+  "_location": "/atom-formatter-jsbeautify",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball",
+  "_shasum": "c90f0d4254ab6785c2aac666c034153d99f16934",
+  "_spec": "https://www.atom.io/api/packages/atom-formatter-jsbeautify/versions/1.1.2/tarball",
+  "_where": "/private/var/folders/xj/2rm2m18s4vsf122prck9bml00000gn/T/apm-install-dir-120325-50107-47ahf6.ky2vv",
+  "author": {
+    "name": "Ayoub Adib",
+    "email": "ayoub.development@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ayoubdev/atom-formatter-jsbeautify/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "js-beautify": "^1.6.2"
+  },
+  "deprecated": false,
+  "description": "Formatter plugin adding a js-beautify interface to the Atom editor. Format and Reindent your Javascript (JS), JSX, JSON, HTML, XML, CSS, SASS, SCSS, LESS files",
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ayoubdev/atom-formatter-jsbeautify#readme",
+  "keywords": [
+    "atom",
+    "formatter",
+    "format",
+    "indent",
+    "reindent",
+    "js-beautify",
+    "jsbeautify",
+    "html",
+    "xml",
+    "css",
+    "less",
+    "sass",
+    "sass",
+    "js",
+    "javascript",
+    "jsx",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "./lib/init",
+  "name": "atom-formatter-jsbeautify",
+  "providedServices": {
+    "formatter": {
+      "versions": {
+        "1.0.0": "provideFormatter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoubdev/atom-formatter-jsbeautify.git"
+  },
+  "version": "1.1.2"
+}

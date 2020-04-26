@@ -1,0 +1,64 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball",
+  "_id": "atom-react-native-style@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ntf41tV98AfAcJJxVP+T/G0WUyN1BtvQh1nzr40V2MZcgCkHJvRcsEurtqKv9W8cHDGiS0EC2Ft+l6qG/CxPKQ==",
+  "_location": "/atom-react-native-style",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball",
+  "_shasum": "9f4a0aa9e2e528dab12857b12f551243cd5376b8",
+  "_spec": "https://www.atom.io/api/packages/atom-react-native-style/versions/0.2.0/tarball",
+  "_where": "/private/var/folders/xj/2rm2m18s4vsf122prck9bml00000gn/T/apm-install-dir-120325-49944-ftuum1.ar0vc",
+  "bugs": {
+    "url": "https://github.com/yomybaby/atom-react-native-style/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "deprecated": false,
+  "description": "This Atom package is for helping to write react-native StyleSheet",
+  "devDependencies": {
+    "react-docgen": "^2.16.0",
+    "react-native": "^0.46.2"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/yomybaby/atom-react-native-style#readme",
+  "keywords": [
+    "react-native",
+    "StyleSheet",
+    "autocomplete",
+    "code-template"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-react-native-style",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomybaby/atom-react-native-style.git"
+  },
+  "scripts": {
+    "completion": "node scripts/completiongen.js"
+  },
+  "version": "0.2.0"
+}

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<View style={styles.${1}}>${2}</View>
+]]></content>
+  <tabTrigger>rnView</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>View</description>
+</snippet>

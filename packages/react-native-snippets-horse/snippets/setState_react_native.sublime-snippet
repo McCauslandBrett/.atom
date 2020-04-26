@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.setState({
+  ${1:key}: ${2:'value'},
+});
+]]></content>
+  <tabTrigger>tss</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>componentDidMount()</description>
+</snippet>
